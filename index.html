@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link href="../../../css/all-pages.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans" rel="stylesheet">
+    <title>Tribute Page</title>
+    <style>
+        *,
+        *::after,
+        *::before {
+            margin: 0;
+            padding: 0;
+            box-sizing: inherit;
+            /*Box sizing is no longer added to total width and total height*/
+        }
+
+        html {
+            /*font-size:10px; /*root font-size for converting to em*/
+            font-size: 62.5%;
+            font-family: 'Lato', sans-serif;
+        }
+
+        #quote {
+            margin-top: 5rem;
+            margin-left: 10rem;
+            font-size: 3.5rem;
+        }
+
+        #title {
+            margin-top: 5rem;
+            margin-left: 50rem;
+            font-size: 4rem;
+            margin-top: 1rem;
+        }
+
+        #image {
+            margin-top: 20rem;
+            margin-left: 5rem;
+            width: 35rem;
+            max-width: 625px;
+            border-radius: 60%;
+        }
+
+        #img-caption {
+            font-size: 1.5rem;
+            margin-left: 10rem;
+        }
+
+        #tribute-info {
+            width: 64rem;
+            font-size: 1.7rem;
+            position: relative;
+            left: 60rem;
+            top: -40rem;
+        }
+
+        #timeline {
+            list-style: none;
+            margin-top: 1rem;
+        }
+
+        #tribute-link {
+            font-size: 2.5rem;
+            position: relative;
+            left: 120rem;
+            top: -40rem;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="navigation">
+            <div class="navigation__back">
+                &nbsp;
+            </div>
+            <a href="../../../" id="page-title" class="navigation__title">
+                CromBlog
+            </a>
+            <input type="checkbox" class="navigation__checkbox" id="navigation-toggle">
+
+            <label for="navigation-toggle" class="navigation__button">
+                <span class="navigation__icon">&nbsp;</span>
+            </label>
+
+            <div class="navigation__background">&nbsp;</div>
+
+            <div class="navigation__nav">
+                <ul class="navigation__list">
+                    <li class="navigation__item"><a href="../../../about/" class="navigation__link">About</a></li>
+                    <li class="navigation__item"><a href="../../../blog/" class="navigation__link">Blog</a></li>
+                    <li class="navigation__item"><a href="../../../contact/" class="navigation__link">Contact</a>
+                    </li>
+                    <li class="navigation__item"><a href="../../../web-development-portfolio/"
+                            class="navigation__link">Web
+                            Development Portfolio</a></li>
+                    <li class="navigation__item"><a href="../../../writing-portfolio/" class="navigation__link">Writing
+                            Portfolio</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main id="main">
+        <em>
+            <h2 id="quote">"People don't care how much you know until they know how much you care."</h2>
+        </em>
+        <h1 id="title">-Theodore Roosevelt</h1>
+        <div id="img-div">
+            <img src="images/theodore-roosevelt-laughing.jpg" alt="Picture of Theodore Roosevelt Laughing" id="image">
+            <span id="img-caption"><br>Theodore Roosevelt laughing in 1919.</span>
+        </div>
+        <div id="tribute-info">
+            <ul id="timeline">
+                <li><strong>1858</strong> - Born in New York City, New York, U.S.</li>
+                <li><strong>1882</strong> - Elected to the New York State Assembly and publishes The Naval War of 1812,
+                    his first of many books.</li>
+                <li><strong>1898</strong> - Resigns from his post as Assistant Secretary of the Navy to form a Volunteer
+                    Cavalry regiment popularly known as the “Rough Riders” and is elected Governor of New York.</li>
+                <li><strong>1901</strong> - Ascends to the Presidency following the assassination of President William
+                    McKinley. Works to curb corporate power.</li>
+                <li><strong>1903</strong> - Leads the construction of the Panama Canal.</li>
+                <li><strong>1904</strong> - Reelected to the Presidency and issues the Roosevelt corollary, establishing
+                    U.S. preponderance over the Western Hemisphere.</li>
+                <li><strong>1906</strong> - Negotiates the end of the Russo-Japanese War.</li>
+                <li><strong>1908</strong> - Forgoes a third term and supports his former Scretary of War, William Howard
+                    Taft, to the Presidency.</li>
+                <li><strong>1909</strong> - Leaves for Africa on the Smithsonian-Roosevelt-African expedition where he
+                    travels extensively, hunting, collecting specimens for the Smithsonian, and writing. </li>
+                <li><strong>1912</strong> - After breaking with the Republican party, he loses a Presential election
+                    running for the Progressive “Bull Moose” Party. Gets shot by a would-be assassin, but is not
+                    critically wounded and goes onto deliver his scheduled 90 minute speech.</li>
+                <li><strong>1913</strong> - Explores the Amazon river under the Roosevelt-Rondon Scientific Expedition.
+                </li>
+                <li><strong>1919</strong> - Dies in Oyster Bay, New York, U.S.</li>
+            </ul>
+        </div>
+        <a href="https://en.wikipedia.org/wiki/Theodore_Roosevelt" target="_blank" id="tribute-link">Learn More</a>
+    </main>
+</body>
+<script type="text/javascript" src="js/script.js"></script>
+
+</html>
